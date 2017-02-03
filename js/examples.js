@@ -175,7 +175,7 @@
 			action[act]();    //运行
 			codeArea.innerHTML = document.querySelector(prefix + act + suffix).innerHTML.trim();
 			//#codes #rotate-code
-			runhijs();   //hijs.js文件
+			// runhijs();   //hijs.js文件
 			setTimeout(function(){
 				target.classList.add("show");
 			}, 10);
